@@ -1,0 +1,172 @@
+@media screen and (max-width: 991px){
+  nav .nav-toggle{
+    display: block;
+    margin-right: 1.5rem;
+  }
+  nav .right{
+    background-color: rgba(18, 18, 232, 0.9);
+    position: absolute;
+    top: 76px;
+    left: -100%;
+    width: 40%;
+    padding-block: 20px;
+    transition: .3s ease-in-out;
+}
+nav .right.active{
+  left: 0;
+}
+nav .right ul{
+  flex-direction: column;
+}
+nav ul a{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.thirdSection .experiance {
+  row-gap: 15px;
+  column-gap: 15px;
+  padding: 0 20px;
+}
+
+.secondSection .secondSection-content{
+  margin-top: 4rem;
+}
+}
+
+@media screen and (max-width: 768px){
+  nav .right{
+    width: 50%;
+  }
+  .firstSection .leftSection {
+    width: 50%;
+    font-size: 1.5rem;
+    padding: 13px;
+    margin: 1.5rem;
+  }
+  .secondSection .secondSection-content .left{
+    padding: 1rem;
+    margin-left: 1.5rem;
+  }
+  .secondSection .secondSection-content .left h2 {
+    font-size: 1.5rem;
+  }
+  .secondSection .secondSection-content .left p {
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 20px;
+  }
+  .sectionFifth .contact form {
+    width: 45vw;
+    padding: 9px 10px;
+}
+.sectionFifth .image {
+  width: 50vw; 
+  border-radius: 10px;
+  height: 360px;
+}
+.sectionFifth .image img{
+  width: 100%;
+  height: 100%;
+}
+.sectionFourth .projects .project {
+  width: 320px;
+  height: 270px;
+}
+.sectionFourth .projects .project .card .card-body img {
+  max-height: 99px;
+}
+footer{
+  font-size: 10px;
+}
+}
+
+@media screen and (max-width: 480px){
+  nav{
+    height: 60px;
+  }
+  nav .left {
+    font-size: 1.2rem;
+}
+nav .right {
+  width: 100%;
+  background-color: rgba(18, 18, 232, 0.9);
+  position: absolute;
+  top: 61px;
+}
+
+ .firstSection{
+  flex-direction: column-reverse;
+ }
+ .firstSection .rightSection {
+  width: 100%;
+  margin-left: 7.5rem;
+  margin-top: 1.5rem;
+ }
+ .firstSection .leftSection {
+  width: 100vw;
+  font-size: 1.2rem;
+  padding: 13px;
+  margin: 0.5rem;
+  text-align: center;
+}
+.secondSection h1 {
+  font-size: 30px;
+  margin-top: 1.2rem;
+}
+.secondSection .secondSection-content {
+  margin-top: 1rem;
+  flex-direction: column-reverse;
+}
+.secondSection .secondSection-content .left {
+  padding: 0.5rem;
+  width: 100%;
+  text-align: center;
+  margin-right: 2rem;
+}
+.secondSection .secondSection-content .left p {
+  font-size: 10px;
+  margin-bottom: 25px;
+  line-height: 14px;
+}
+.secondSection .secondSection-content .left h2 {
+  font-size: 1rem;
+  margin-top: 16px;
+}
+.secondSection .secondSection-content .right {
+  width: 80vw;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  
+}
+.secondSection .secondSection-content .right img {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.thirdSection h1 {
+  font-size: 30px;
+}
+.sectionFifth .contact{
+  flex-direction: column-reverse;
+  margin-top: 2rem;
+}
+.sectionFifth .contact form {
+  width: 95vw;
+  padding: 5px 7px;
+  margin-top: 1rem;
+}
+.sectionFifth .image {
+  width: 90vw;
+  border-radius: 10px;
+  height: 200px;
+}
+
+footer{
+  height: 60px;
+}
+footer h1{
+  font-size: 14px;
+}
+}

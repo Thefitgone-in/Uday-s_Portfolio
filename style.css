@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(9, 9, 87);
+}
+nav .left{
+    margin-left: 2rem;
+}
+nav .right {
+    margin-right: 2rem;
+}
+nav .right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+nav .right ul a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+nav ul a:hover{
+    color: rgb(174, 174, 232);
+    font-size: 1.06rem;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+nav .left{
+    font-size: 2.5rem;
+}
+nav .nav-toggle{
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.firstSection{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.firstSection .leftSection{
+    width: 50%;
+    font-size: 2rem;
+    padding: 25px;
+    margin-left: 5rem;
+}
+.firstSection .rightSection{
+    width: 50%;
+}
+.firstSection .rightSection img{
+    width: 70%;
+    height: 70%;
+}
+.leftSection .purple{
+    color: rgb(161, 116, 203);
+}
+#element{
+    color: rgb(146, 146, 234);
+}
+
+hr{
+    background-color: rgb(9, 9, 87);
+    border: 0;
+    height: 6px;
+    margin-bottom: 20px;
+    margin-top: 2rem;
+}
+.secondSection{
+    min-height: 90vh;
+    margin: 2rem 0;
+}
+.secondSection h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-top: 1rem;
+    text-decoration: underline .5px rgb(146, 146, 234);
+}
+.secondSection .secondSection-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.secondSection .secondSection-content .left{
+    width: 50vw;
+    padding: 2.5rem;
+    margin-left: 3rem;
+
+}
+
+.secondSection .secondSection-content .left a{
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+.secondSection .secondSection-content .left a:hover{
+    color: white;
+    border-radius: 5px;
+   background-color: rgba(136, 136, 153, 0.53);
+   
+    border: 2px solid rgba(136, 136, 153, 0.53);
+}
+.secondSection .secondSection-content .left h2{
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.secondSection .secondSection-content .left p{
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 1.7rem
+}
+
+.secondSection .secondSection-content .right{
+    width: 40vw;
+    margin-right: 3rem;
+}
+.secondSection .secondSection-content .right img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.thirdSection{
+     min-height: 100vh;
+}
+.thirdSection h1{
+    text-align: center;
+    font-size: 42px;
+    text-decoration: underline 0.5px rgb(146, 146, 234);
+}
+.thirdSection .experiance{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-top: 3rem;
+}
+.thirdSection .experiance .exp{
+    width: 300px;
+    height: 240px;
+    border: 2px solid white;
+    border-radius: 8% 25%;
+    overflow: hidden;
+    background-color: rgb(59 59 104);
+    transition: .5s ease-in-out;
+}
+.thirdSection .experiance .exp:hover{
+    background-color: rgba(59,59,104,0.3);
+}
+
+.thirdSection .experiance .exp img{
+    width: 80px;
+    height: 50px;
+    position: relative;
+    left: 100px;
+    margin-top: 20px;
+}
+.thirdSection .experiance .exp h3{
+    position: relative;
+    left: 100px;
+    font-family: 200;
+}
+.thirdSection .experiance .exp .outer{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top right, #ffff00 0%, #ff0000 100%);
+    transition: 0.5s ease-in-out;
+}
+
+.thirdSection .experiance .exp:hover .outer{
+    background: linear-gradient(to top right, #dada29a3 0%, #f03708cf 100%);
+}
+.thirdSection .experiance .exp .inner{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(79, 79, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    
+}
+.sectionFourth{
+    min-height: 100vh;
+}
+.sectionFourth h1 {
+    text-align: center;
+    font-size: 42px;
+    text-decoration: underline .5px rgb(146, 146, 234);
+    
+}
+.sectionFourth .projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 21px;
+    column-gap: 10px;
+    padding: 1.5rem;
+}
+.sectionFourth .projects .project{
+    width: 300px;
+    height: 350px;
+    border: 2px solid rgba(242, 242, 244, 0.009);
+    background-color: rgb(131, 161, 185);
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.sectionFourth .projects .project:hover{
+    background-color: rgba(131, 161, 185, 0.6);
+}
+.sectionFourth .projects .project .card .card-body img{
+   max-width: 100%;
+   max-height: 175px;
+   margin-top: 1rem;
+}
+.sectionFourth .projects .project .card .card-body .card-link{
+    color: blue;
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+.sectionFourth .projects .project .card .card-body .card-link:hover{
+    color: white;
+    background-color: rgb(0, 0, 33);
+    font-size: 1.1rem;
+}
+
+.sectionFifth{
+    min-height: 100vh;
+}
+
+.sectionFifth h1 {
+    text-align: center;
+    font-size: 42px;
+    text-decoration: underline .5px rgb(146, 146, 234);   
+}
+.sectionFifth .contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.sectionFifth .contact form{
+    width: 40%;
+    background-color: #fefefe;
+    box-shadow: 0 0 10px rgb(95, 92, 97);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.sectionFifth .contact form input, .sectionFifth .contact form textarea{
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    outline: none;
+    background-color: #5c646072;
+    border-radius: 10px;
+    
+}
+.sectionFifth .contact form button{
+    padding: 10px;
+    background: #ff5361;
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.sectionFifth .contact .image img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(9, 9, 87);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+    
